@@ -13,5 +13,6 @@ void can_start()
 void send_rm_motor()
 {
 	rm_motor_x.write(can1.tx_data);
+	rm_motor_y.write(can1.tx_data);
 	can1.send(rm_motor_x.tx_id);
 }

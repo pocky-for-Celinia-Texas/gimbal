@@ -3,7 +3,8 @@
 
 #include "motor/rm_motor/rm_motor.hpp"
 
-inline sp::RM_Motor rm_motor_x(1, sp::RM_Motors::GM6020);
+inline sp::RM_Motor rm_motor_x(1, sp::RM_Motors::GM6020);  //旋臂
+inline sp::RM_Motor rm_motor_y(4, sp::RM_Motors::GM6020);  //水平
 
 typedef struct
 {
